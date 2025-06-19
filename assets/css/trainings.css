@@ -1,0 +1,68 @@
+.projects-light {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.text {
+  padding-top: 70px;
+  border-top: 2px dashed #90206e;
+}
+.text h1 {
+  border-top: 1px dashed black;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.projects-light .item {
+  transition: 0.4s ease;
+  background: #fff;
+  overflow: hidden;
+}
+
+.projects-light .item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.projects-light .content {
+  text-align: left;
+}
+
+.projects-light p.title {
+  font-weight: bold;
+  color: #90206e;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.projects-light .title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.projects-light .title a:hover {
+  color: #222;
+}
+
+.projects-light p.intro {
+  max-height: 6em;
+  overflow: hidden;
+  font-size: 0.95rem;
+  transition: max-height 0.5s;
+  color: #333;
+}
+
+.projects-light p.intro:hover {
+  max-height: 15em;
+}
+
+.projects-light img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  .projects-light .text h1 {
+    font-size: 1.8rem;
+  }
+}

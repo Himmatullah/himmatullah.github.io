@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 body {
-  font-family: "Lora";
+  font-family: "Outfit", sans-serif;
 }
+
 section {
   padding: 100px 0 70px;
   background-size: cover;
@@ -430,7 +431,7 @@ section {
 		Contact
 **********************/
 .contact {
-  background-color: #f2eeed;
+  //background-color: #f2eeed;
   color: #969595;
 }
 .contact-logo {
@@ -595,4 +596,40 @@ section {
 
 .footer-list li a:hover::after {
   width: 100%;
+}
+
+.about-section {
+  padding: 80px 20px;
+}
+
+.about-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.no-top-padding {
+  padding-top: 5px; /* Or 0 if you want zero gap */
+}
+
+.about-text {
+  font-size: 1.4rem;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 25px;
+}
+
+@media (max-width: 767.98px) {
+  .about-title {
+    text-align: center;
+  }
+}
+.sec-just {
+  text-align: justify;
+  font-size: 1.4rem;
 }
