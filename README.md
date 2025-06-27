@@ -1,2 +1,2 @@
-Pama Legal Consultancy
+Pama Legal Consultancy <br>
 Pama Legal Consultancy Services Company offers expert legal guidance tailored to individuals and businesses alike. We specialize in legal documentation, case analysis, and regulatory compliance across multiple sectors. Our team is committed to delivering reliable and confidential support with integrity and professionalism. With client-focused solutions, we aim to simplify complex legal challenges for better outcomes.
